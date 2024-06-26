@@ -1,0 +1,41 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+}
+
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.card h1 {
+    margin: 16px;
+    font-size: 24px;
+    color: #333;
+}
+
+.card p {
+    margin: 16px;
+    font-size: 16px;
+    color: #777;
+}
+
+.btn1 {
+    margin: 16px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.btn1:hover {
+    background: gold;
+    border: none;
+    transition: 1.5s;
+}
+
