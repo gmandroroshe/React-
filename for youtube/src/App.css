@@ -24,7 +24,7 @@
 
   
 .Welcome-msg {
-    background: hsl(120, 99%, 42%);
+    background: rgb(100, 15, 15);
     color: white;
     margin: 10px;
     padding: 10px;
@@ -42,4 +42,65 @@
     width: 200px;
     border: black 10px;
     border-radius: 10px;
+}
+
+/* Reset some basic styles */
+body, h1, ul, li, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Navbar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffe100;
+  color: white;
+}
+
+.navbar-logo h1 {
+  font-size: 1.5rem;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links li {
+  position: relative;
+}
+
+.navbar-links a {
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #f39c12;
+}
+
+.navbar-links a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f39c12;
+  transition: width 0.3s;
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+  transition: width 0.3s;
 }
