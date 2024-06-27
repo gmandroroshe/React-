@@ -8,6 +8,21 @@
     background: black;
 } */
 
+/* Card.css */
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Adjust space between cards */
+    flex-wrap: nowrap; /* Ensure cards don't wrap to the next line */
+  }
+  
+  .card-container .card {
+    flex: 1; /* Allows cards to grow equally */
+    margin: 0 10px; /* Adjust spacing between cards */
+  }
+
+
+  
 .Welcome-msg {
     background: hsl(120, 99%, 42%);
     color: white;
