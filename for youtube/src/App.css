@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     justify-content: center;
@@ -6,4 +6,25 @@ body {
     height: 100vh;
     margin: 0;
     background: black;
+} */
+
+.Welcome-msg {
+    background: hsl(120, 99%, 42%);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: 200px;
+    border: black 10px;
+    border-radius: 10px;
+}
+.woring-msg {
+    background: hsl(0, 99%, 42%);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: 200px;
+    border: black 10px;
+    border-radius: 10px;
 }

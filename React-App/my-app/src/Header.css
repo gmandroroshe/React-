@@ -36,7 +36,7 @@
     height: 150px;
     border-radius: 50%;
     margin-left: 20px;
-    border: 5px solid #6f42c1;
+    border: 5px solid #B33035;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -55,7 +55,7 @@
 
 .title {
     font-size: 24px;
-    color: #6f42c1;
+    color: #B33035;
     margin: 10px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -63,7 +63,7 @@
 }
 
 .view-work-button {
-    background-color: #6f42c1;
+    background-color: #B33035;
     color: white;
     border: none;
     padding: 10px 30px;
@@ -77,6 +77,6 @@
 }
 
 .view-work-button:hover {
-    background-color: #563d7c;
+    background-color: #59191b;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }

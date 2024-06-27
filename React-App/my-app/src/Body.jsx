@@ -1,6 +1,6 @@
 import React from 'react';
-import './Body.css'; // Ensure you have this CSS file for styling
-import aboutImage from '/public/pic.png'; // Ensure you have the correct path to your image
+import './Body.css'; // Body css
+import aboutImage from '/public/pic.png'; // image 
 
 const Body = () => {
     return (

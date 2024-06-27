@@ -30,7 +30,7 @@
 }
 
 .navbar-button {
-  background-color: #00aaff;
+  background-color: #B33035;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -40,5 +40,5 @@
 }
 
 .navbar-button:hover {
-  background-color: #0088cc;
+  background-color: #59191b;
 }

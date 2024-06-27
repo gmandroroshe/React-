@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     padding: 60px 20px;
-    background-color: #2c2c2c; /* Dark background color */
-    color: #fff; /* Text color */
+    background-color: #2c2c2c;
+    color: #fff; 
 }
 
 .about-content {
@@ -13,7 +13,6 @@
     max-width: 1200px;
     width: 100%;
     gap: 40px; 
-    /* Space between image and text */
 }
 
 .about-image {
@@ -38,11 +37,11 @@
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.6;
-    color: #ccc; /* Light gray color for text */
+    color: #ccc; 
 }
 
 .view-work-button {
-    background-color: #6f42c1;
+    background-color: #B33035;
     color: white;
     border: none;
     padding: 12px 36px;
@@ -57,5 +56,5 @@
 }
 
 .view-work-button:hover {
-    background-color: #563d7c;
+    background-color: #59191b;
 }
