@@ -1,22 +1,20 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 function Greeting(props) {
-
     const WelcomeMsg = <h2 className="Welcome-msg">Welcome {props.username}</h2>;
-    const woringMmsg = <h2 className="woring-msg">Place Loging agnain</h2>;
+    const WarningMsg = <h2 className="woring-msg">Please log in again</h2>;
 
-    return (props.isLoggedIn ? WelcomeMsg : woringMmsg) ;
-  }
-  
-  Greeting.prototype = {
-    isLoggedIn : PropTypes.bool,
-    username : PropTypes.string,
-  }
-  Greeting.defaultprops = {
-    isLoggedIn : false,
-    username : "gest",
-  }
+    return (props.isLoggedIn ? WelcomeMsg : WarningMsg);
+}
 
+Greeting.propTypes = {
+    isLoggedIn: PropTypes.bool,
+    username: PropTypes.string,
+};
 
-  export default Greeting;
-  
+Greeting.defaultProps = {
+    isLoggedIn: false,
+    username: "guest",
+};
+
+export default Greeting;

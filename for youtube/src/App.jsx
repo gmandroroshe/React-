@@ -22,7 +22,7 @@ function App() {
       <Card p1="lorem 2"  Card1={Card1} />
       <Card p1="lorem 3"  Card1={Card1} /> */}
       <Condition isLoggedIn={true} username="Kavindu" />
-      <Greeting isLoggedIn={true}  />
+      <Greeting isLoggedIn={true} />
     </>
   );
 }
