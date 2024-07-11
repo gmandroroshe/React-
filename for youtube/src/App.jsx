@@ -2,24 +2,26 @@
 import './App.css';
 // import Header from './header1.jsx';
 import Navbar from './Navbar1.jsx';
-// import Footer from './Footer.jsx';
+import Footer from './Footer.jsx';
 // import Food from './Food.jsx';
-import Card from './Card.jsx';
-import './css/Card.css'
-import Card1 from '/Images/card.jpg'
+// import Card from './Card.jsx';
+// import './css/Card.css'
+// import Card1 from '/Images/card.jpg'
 // import Card3 from '/Images/card2.jpg'
 // import Condition from './Condition1.jsx';
 // import Greeting from './Greeting.jsx';
+import List from './List.jsx';
 
 function App() {
   return (
     <>
       <Navbar/>
+      <List/>
       {/* <Header/>
-      <Food/>
-      <Footer/> */}
+      <Food/> */}
+      
       {/* Other components */}
-      <br />
+      {/* <br />
       <div className="card-container">
         <Card p1="lorem 1" Card1={Card1} />
         <Card p1="lorem 2" Card1={Card1} />
@@ -46,9 +48,11 @@ function App() {
         <Card p1="lorem 2" Card1={Card1} />
         <Card p1="lorem 3" Card1={Card1} />
         <Card p1="lorem 3" Card1={Card1} />
-      </div>
+      </div> */}
       {/* <Condition isLoggedIn={true} username="Kavindu" />
       <Greeting isLoggedIn={true}  /> */}
+      <Footer/>
+      <h1>Uncomets the oll comporents</h1>
     </>
   );
 }

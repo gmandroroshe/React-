@@ -1,7 +1,14 @@
 function Footer (){
     return (
-        <footer>
-            <p>{new Date().getFullYear()} this is copy riht section</p>
+        <footer className="Footer">
+            <center>
+                <ol>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ol>
+            </center>
         </footer>
     );
 }
